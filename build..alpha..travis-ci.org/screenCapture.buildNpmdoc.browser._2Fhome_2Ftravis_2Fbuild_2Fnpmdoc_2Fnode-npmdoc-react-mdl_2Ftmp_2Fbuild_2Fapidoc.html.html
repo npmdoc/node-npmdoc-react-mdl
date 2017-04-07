@@ -1,0 +1,4868 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/tleunen/react-mdl#readme">react-mdl (v1.9.0)</a>
+</h1>
+<h4>React Components for Material Design Lite</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl">module react-mdl</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Badge">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Badge
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Button">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Button
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Card">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Card
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.CardActions">
+            function <span class="apidocSignatureSpan">react-mdl.</span>CardActions
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.CardMedia">
+            function <span class="apidocSignatureSpan">react-mdl.</span>CardMedia
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.CardMenu">
+            function <span class="apidocSignatureSpan">react-mdl.</span>CardMenu
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.CardText">
+            function <span class="apidocSignatureSpan">react-mdl.</span>CardText
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.CardTitle">
+            function <span class="apidocSignatureSpan">react-mdl.</span>CardTitle
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Cell">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Cell
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Checkbox">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Checkbox
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Chip">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Chip
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ChipContact">
+            function <span class="apidocSignatureSpan">react-mdl.</span>ChipContact
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Content">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Content
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.DataTable">
+            function <span class="apidocSignatureSpan">react-mdl.</span>DataTable
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Dialog">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Dialog
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.DialogActions">
+            function <span class="apidocSignatureSpan">react-mdl.</span>DialogActions
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.DialogContent">
+            function <span class="apidocSignatureSpan">react-mdl.</span>DialogContent
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.DialogTitle">
+            function <span class="apidocSignatureSpan">react-mdl.</span>DialogTitle
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Drawer">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Drawer
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.FABButton">
+            function <span class="apidocSignatureSpan">react-mdl.</span>FABButton
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Footer">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Footer
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.FooterDropDownSection">
+            function <span class="apidocSignatureSpan">react-mdl.</span>FooterDropDownSection
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.FooterLinkList">
+            function <span class="apidocSignatureSpan">react-mdl.</span>FooterLinkList
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.FooterSection">
+            function <span class="apidocSignatureSpan">react-mdl.</span>FooterSection
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Grid">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Grid
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Header">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Header
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.HeaderRow">
+            function <span class="apidocSignatureSpan">react-mdl.</span>HeaderRow
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.HeaderTabs">
+            function <span class="apidocSignatureSpan">react-mdl.</span>HeaderTabs
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Icon">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Icon
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.IconButton">
+            function <span class="apidocSignatureSpan">react-mdl.</span>IconButton
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.IconToggle">
+            function <span class="apidocSignatureSpan">react-mdl.</span>IconToggle
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Layout">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Layout
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.List">
+            function <span class="apidocSignatureSpan">react-mdl.</span>List
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ListItem">
+            function <span class="apidocSignatureSpan">react-mdl.</span>ListItem
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ListItemAction">
+            function <span class="apidocSignatureSpan">react-mdl.</span>ListItemAction
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ListItemContent">
+            function <span class="apidocSignatureSpan">react-mdl.</span>ListItemContent
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.MDLComponent">
+            function <span class="apidocSignatureSpan">react-mdl.</span>MDLComponent
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Menu">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Menu
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.MenuItem">
+            function <span class="apidocSignatureSpan">react-mdl.</span>MenuItem
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Navigation">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Navigation
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ProgressBar">
+            function <span class="apidocSignatureSpan">react-mdl.</span>ProgressBar
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Radio">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Radio
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.RadioGroup">
+            function <span class="apidocSignatureSpan">react-mdl.</span>RadioGroup
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Slider">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Slider
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Snackbar">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Snackbar
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Spacer">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Spacer
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Spinner">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Spinner
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Switch">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Switch
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Tab">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Tab
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.TabBar">
+            function <span class="apidocSignatureSpan">react-mdl.</span>TabBar
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Table">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Table
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.TableHeader">
+            function <span class="apidocSignatureSpan">react-mdl.</span>TableHeader
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Tabs">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Tabs
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Textfield">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Textfield
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Tooltip">
+            function <span class="apidocSignatureSpan">react-mdl.</span>Tooltip
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.getColorClass">
+            function <span class="apidocSignatureSpan">react-mdl.</span>getColorClass
+            <span class="apidocSignatureSpan">(color, level)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.getTextColorClass">
+            function <span class="apidocSignatureSpan">react-mdl.</span>getTextColorClass
+            <span class="apidocSignatureSpan">(color, level)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.mdlUpgrade">
+            function <span class="apidocSignatureSpan">react-mdl.</span>mdlUpgrade
+            <span class="apidocSignatureSpan">(Component)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">react-mdl.</span>ReactMDL</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.Button">module react-mdl.Button</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Button.default">
+            function <span class="apidocSignatureSpan">react-mdl.Button.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.Checkbox">module react-mdl.Checkbox</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Checkbox.default">
+            function <span class="apidocSignatureSpan">react-mdl.Checkbox.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.FABButton">module react-mdl.FABButton</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.FABButton.default">
+            function <span class="apidocSignatureSpan">react-mdl.FABButton.</span>default
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.IconButton">module react-mdl.IconButton</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.IconButton.default">
+            function <span class="apidocSignatureSpan">react-mdl.IconButton.</span>default
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.IconToggle">module react-mdl.IconToggle</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.IconToggle.default">
+            function <span class="apidocSignatureSpan">react-mdl.IconToggle.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.Menu">module react-mdl.Menu</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Menu.MenuItem">
+            function <span class="apidocSignatureSpan">react-mdl.Menu.</span>MenuItem
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Menu.default">
+            function <span class="apidocSignatureSpan">react-mdl.Menu.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.ProgressBar">module react-mdl.ProgressBar</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ProgressBar.default">
+            function <span class="apidocSignatureSpan">react-mdl.ProgressBar.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.Radio">module react-mdl.Radio</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Radio.default">
+            function <span class="apidocSignatureSpan">react-mdl.Radio.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.RadioGroup">module react-mdl.RadioGroup</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.RadioGroup.default">
+            function <span class="apidocSignatureSpan">react-mdl.RadioGroup.</span>default
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.ReactMDL">module react-mdl.ReactMDL</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Badge">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Badge
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Button">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Button
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Card">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Card
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.CardActions">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>CardActions
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.CardMedia">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>CardMedia
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.CardMenu">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>CardMenu
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.CardText">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>CardText
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.CardTitle">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>CardTitle
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Cell">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Cell
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Checkbox">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Checkbox
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Chip">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Chip
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.ChipContact">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>ChipContact
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Content">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Content
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.DataTable">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>DataTable
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Dialog">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Dialog
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.DialogActions">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>DialogActions
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.DialogContent">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>DialogContent
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.DialogTitle">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>DialogTitle
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Drawer">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Drawer
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.FABButton">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>FABButton
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Footer">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Footer
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.FooterDropDownSection">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>FooterDropDownSection
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.FooterLinkList">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>FooterLinkList
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.FooterSection">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>FooterSection
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Grid">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Grid
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Header">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Header
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.HeaderRow">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>HeaderRow
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.HeaderTabs">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>HeaderTabs
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Icon">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Icon
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.IconButton">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>IconButton
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.IconToggle">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>IconToggle
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Layout">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Layout
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.List">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>List
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.ListItem">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>ListItem
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.ListItemAction">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>ListItemAction
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.ListItemContent">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>ListItemContent
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.MDLComponent">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>MDLComponent
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Menu">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Menu
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.MenuItem">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>MenuItem
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Navigation">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Navigation
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.ProgressBar">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>ProgressBar
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Radio">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Radio
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.RadioGroup">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>RadioGroup
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Slider">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Slider
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Snackbar">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Snackbar
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Spacer">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Spacer
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Spinner">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Spinner
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Switch">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Switch
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Tab">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Tab
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.TabBar">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>TabBar
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Table">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Table
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.TableHeader">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>TableHeader
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Tabs">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Tabs
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Textfield">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Textfield
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.Tooltip">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Tooltip
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.getColorClass">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>getColorClass
+            <span class="apidocSignatureSpan">(color, level)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.getTextColorClass">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>getTextColorClass
+            <span class="apidocSignatureSpan">(color, level)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.ReactMDL.mdlUpgrade">
+            function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>mdlUpgrade
+            <span class="apidocSignatureSpan">(Component)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.Slider">module react-mdl.Slider</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Slider.default">
+            function <span class="apidocSignatureSpan">react-mdl.Slider.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.Spinner">module react-mdl.Spinner</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Spinner.default">
+            function <span class="apidocSignatureSpan">react-mdl.Spinner.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.Switch">module react-mdl.Switch</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Switch.default">
+            function <span class="apidocSignatureSpan">react-mdl.Switch.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.Textfield">module react-mdl.Textfield</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Textfield.default">
+            function <span class="apidocSignatureSpan">react-mdl.Textfield.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.react-mdl.Tooltip">module react-mdl.Tooltip</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.react-mdl.Tooltip.default">
+            function <span class="apidocSignatureSpan">react-mdl.Tooltip.</span>default
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl" id="apidoc.module.react-mdl">module react-mdl</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Badge" id="apidoc.element.react-mdl.Badge">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Badge
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Badge(props) {
+    var children = props.children,
+        className = props.className,
+        text = props.text,
+        overlap = props.overlap,
+        noBackground = props.noBackground,
+        rest = _objectWithoutProperties(props, ['children', 'className', 'text', 'overlap', 'noBackground']);
+
+    // No badge if no children
+    // TODO: In React 15, we can return null instead
+
+
+    if (!_react2.default.Children.count(children)) return _react2.default.createElement('noscript', null);
+
+    var element = typeof children === 'string' ? _react2.default.createElement(
+        'span',
+        null,
+        children
+    ) : _react2.default.Children.only(children);
+
+    // No text -&gt; No need of badge
+    if (text === null || typeof text === 'undefined') return element;
+
+    return _react2.default.cloneElement(element, _extends({}, rest, {
+        className: (0, _classnames2.default)(className, element.props.className, 'mdl-badge', {
+            'mdl-badge--overlap': !!overlap,
+            'mdl-badge--no-background': !!noBackground
+        }),
+        'data-badge': text
+    }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Button" id="apidoc.element.react-mdl.Button">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Button
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Button() {
+    _classCallCheck(this, Button);
+
+    return _possibleConstructorReturn(this, (Button.__proto__ || Object.getPrototypeOf(Button)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Card" id="apidoc.element.react-mdl.Card">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Card
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Card(props) {
+    var className = props.className,
+        shadow = props.shadow,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'shadow', 'children']);
+
+    var hasShadow = typeof shadow !== 'undefined';
+    var shadowLevel = (0, _clamp2.default)(shadow || 0, 0, _shadows2.default.length - 1);
+
+    var classes = (0, _classnames2.default)('mdl-card', _defineProperty({}, _shadows2.default[shadowLevel], hasShadow), className
+);
+
+    return _react2.default.createElement(
+        'div',
+        _extends({ className: classes }, otherProps),
+        children
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.CardActions" id="apidoc.element.react-mdl.CardActions">
+        function <span class="apidocSignatureSpan">react-mdl.</span>CardActions
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CardActions(props) {
+    var className = props.className,
+        border = props.border,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'border', 'children']);
+
+    var classes = (0, _classnames2.default)('mdl-card__actions', {
+        'mdl-card--border': border
+    }, className);
+
+    return _react2.default.createElement(
+        'div',
+        _extends({ className: classes }, otherProps),
+        children
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.CardMedia" id="apidoc.element.react-mdl.CardMedia">
+        function <span class="apidocSignatureSpan">react-mdl.</span>CardMedia
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+    var className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+
+    return _react2.default.createElement(element, _extends({
+        className: (0, _classnames2.default)(defaultClassName, className)
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.CardMenu" id="apidoc.element.react-mdl.CardMenu">
+        function <span class="apidocSignatureSpan">react-mdl.</span>CardMenu
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+    var className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+
+    return _react2.default.createElement(element, _extends({
+        className: (0, _classnames2.default)(defaultClassName, className)
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.CardText" id="apidoc.element.react-mdl.CardText">
+        function <span class="apidocSignatureSpan">react-mdl.</span>CardText
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+    var className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+
+    return _react2.default.createElement(element, _extends({
+        className: (0, _classnames2.default)(defaultClassName, className)
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.CardTitle" id="apidoc.element.react-mdl.CardTitle">
+        function <span class="apidocSignatureSpan">react-mdl.</span>CardTitle
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CardTitle(props) {
+    var className = props.className,
+        children = props.children,
+        expand = props.expand,
+        otherProps = _objectWithoutProperties(props, ['className', 'children', 'expand']);
+
+    var classes = (0, _classnames2.default)('mdl-card__title', {
+        'mdl-card--expand': expand
+    }, className);
+
+    var title = typeof children === 'string' ? _react2.default.createElement(
+        'h2',
+        { className: 'mdl-card__title-text' },
+        children
+    ) : children;
+
+    return _react2.default.createElement(
+        'div',
+        _extends({ className: classes }, otherProps),
+        title
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Cell" id="apidoc.element.react-mdl.Cell">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Cell
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Cell(props) {
+    var _classNames;
+
+    var align = props.align,
+        className = props.className,
+        children = props.children,
+        col = props.col,
+        phone = props.phone,
+        tablet = props.tablet,
+        component = props.component,
+        hideDesktop = props.hideDesktop,
+        hidePhone = props.hidePhone,
+        hideTablet = props.hideTablet,
+        shadow = props.shadow,
+        offset = props.offset,
+        offsetDesktop = props.offsetDesktop,
+        offsetTablet = props.offsetTablet,
+        offsetPhone = props.offsetPhone,
+        otherProps = _objectWithoutProperties(props, ['align', 'className', 'children', 'col', 'phone', 'tablet', 'component', '
+hideDesktop', 'hidePhone', 'hideTablet', 'shadow', 'offset', 'offsetDesktop', 'offsetTablet', 'offsetPhone']);
+
+    var hasShadow = isDefined(shadow);
+    var shadowLevel = (0, _clamp2.default)(shadow || 0, 0, _shadows2.default.length - 1);
+
+    var classes = (0, _classnames2.default)('mdl-cell', (_classNames = {}, _defineProperty(_classNames, 'mdl-cell--' + col + '-col
+', isDefined(col)), _defineProperty(_classNames, 'mdl-cell--' + phone + '-col-phone', isDefined(phone)), _defineProperty(_classNames
+, 'mdl-cell--' + tablet + '-col-tablet', isDefined(tablet)), _defineProperty(_classNames, 'mdl-cell--' + align, isDefined(align)),
+_defineProperty(_classNames, 'mdl-cell--' + offset + '-offset', isDefined(offset)), _defineProperty(_classNames, 'mdl-cell--' +
+offsetDesktop + '-offset-desktop', isDefined(offsetDesktop)), _defineProperty(_classNames, 'mdl-cell--' + offsetTablet + '-offset
+-tablet', isDefined(offsetTablet)), _defineProperty(_classNames, 'mdl-cell--' + offsetPhone + '-offset-phone', isDefined(offsetPhone
+)), _defineProperty(_classNames, 'mdl-cell--hide-desktop', hideDesktop), _defineProperty(_classNames, 'mdl-cell--hide-phone', hidePhone
+), _defineProperty(_classNames, 'mdl-cell--hide-tablet', hideTablet), _defineProperty(_classNames, _shadows2.default[shadowLevel
+], hasShadow), _classNames), className);
+
+    return _react2.default.createElement(component || 'div', _extends({
+        className: classes
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Checkbox" id="apidoc.element.react-mdl.Checkbox">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Checkbox
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Checkbox() {
+    _classCallCheck(this, Checkbox);
+
+    return _possibleConstructorReturn(this, (Checkbox.__proto__ || Object.getPrototypeOf(Checkbox)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Chip" id="apidoc.element.react-mdl.Chip">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Chip
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Chip(props) {
+    var className = props.className,
+        onClick = props.onClick,
+        onClose = props.onClose,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'onClick', 'onClose', 'children']);
+
+    var childrenArray = _react2.default.Children.toArray(children);
+    var contactIndex = childrenArray.findIndex(function (c) {
+        return c.type === ChipContact;
+    });
+
+    var chipContent = [];
+
+    if (contactIndex &gt;= 0) {
+        chipContent.push(childrenArray[contactIndex], _react2.default.createElement(
+            ChipText,
+            { key: 'text' },
+            childrenArray.slice(0, contactIndex).concat(childrenArray.slice(contactIndex + 1))
+        ));
+    } else {
+        chipContent.push(_react2.default.createElement(
+            ChipText,
+            { key: 'text' },
+            children
+        ));
+    }
+
+    if (onClose) {
+        chipContent.push(_react2.default.createElement(
+            'button',
+            { key: 'btn', type: 'button', className: 'mdl-chip__action', onClick: onClose },
+            _react2.default.createElement(_Icon2.default, { name: 'cancel' })
+        ));
+    }
+
+    var elt = onClick ? 'button' : 'span';
+
+    return _react2.default.createElement(elt, _extends({
+        className: (0, _classnames2.default)('mdl-chip', {
+            'mdl-chip--contact': contactIndex &gt; -1,
+            'mdl-chip--deletable': !!onClose
+        }, className),
+        type: onClick ? 'button' : null,
+        onClick: onClick
+    }, otherProps), chipContent);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ChipContact" id="apidoc.element.react-mdl.ChipContact">
+        function <span class="apidocSignatureSpan">react-mdl.</span>ChipContact
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+    var className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+
+    return _react2.default.createElement(element, _extends({
+        className: (0, _classnames2.default)(defaultClassName, className)
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Content" id="apidoc.element.react-mdl.Content">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Content
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Content(props) {
+    var children = props.children,
+        className = props.className,
+        component = props.component,
+        otherProps = _objectWithoutProperties(props, ['children', 'className', 'component']);
+
+    var classes = (0, _classnames2.default)('mdl-layout__content', className);
+
+    return _react2.default.createElement(component || 'div', _extends({
+        className: classes
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.DataTable" id="apidoc.element.react-mdl.DataTable">
+        function <span class="apidocSignatureSpan">react-mdl.</span>DataTable
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Sortable(props) {
+    _classCallCheck(this, Sortable);
+
+    var _this = _possibleConstructorReturn(this, (Sortable.__proto__ || Object.getPrototypeOf(Sortable)).call(this, props));
+
+    _this.handleClickColumn = _this.handleClickColumn.bind(_this);
+
+    if (props.sortable) {
+        _this.state = initState(props);
+    }
+    return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Dialog" id="apidoc.element.react-mdl.Dialog">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Dialog
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Dialog() {
+    _classCallCheck(this, Dialog);
+
+    return _possibleConstructorReturn(this, (Dialog.__proto__ || Object.getPrototypeOf(Dialog)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.DialogActions" id="apidoc.element.react-mdl.DialogActions">
+        function <span class="apidocSignatureSpan">react-mdl.</span>DialogActions
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function DialogActions(props) {
+    var className = props.className,
+        fullWidth = props.fullWidth,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'fullWidth', 'children']);
+
+    var classes = (0, _classnames2.default)('mdl-dialog__actions', {
+        'mdl-dialog__actions--full-width': fullWidth
+    }, className);
+
+    return _react2.default.createElement(
+        'div',
+        _extends({ className: classes }, otherProps),
+        children
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.DialogContent" id="apidoc.element.react-mdl.DialogContent">
+        function <span class="apidocSignatureSpan">react-mdl.</span>DialogContent
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+    var className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+
+    return _react2.default.createElement(element, _extends({
+        className: (0, _classnames2.default)(defaultClassName, className)
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.DialogTitle" id="apidoc.element.react-mdl.DialogTitle">
+        function <span class="apidocSignatureSpan">react-mdl.</span>DialogTitle
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function DialogTitle(props) {
+    var className = props.className,
+        component = props.component,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'component', 'children']);
+
+    return _react2.default.createElement(component || 'h4', _extends({
+        className: (0, _classnames2.default)('mdl-dialog__title', className)
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Drawer" id="apidoc.element.react-mdl.Drawer">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Drawer
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Drawer(props) {
+    var className = props.className,
+        title = props.title,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'title', 'children']);
+
+    var classes = (0, _classnames2.default)('mdl-layout__drawer', className);
+
+    return _react2.default.createElement(
+        'div',
+        _extends({ className: classes }, otherProps),
+        title ? _react2.default.createElement(
+            'span',
+            { className: 'mdl-layout-title' },
+            title
+        ) : null,
+        children
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.FABButton" id="apidoc.element.react-mdl.FABButton">
+        function <span class="apidocSignatureSpan">react-mdl.</span>FABButton
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function FABButton(props) {
+    var mini = props.mini,
+        className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['mini', 'className', 'children']);
+
+    var classes = (0, _classnames2.default)('mdl-button--fab', {
+        'mdl-button--mini-fab': mini
+    }, className);
+
+    return _react2.default.createElement(
+        _Button2.default,
+        _extends({ className: classes }, otherProps),
+        children
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Footer" id="apidoc.element.react-mdl.Footer">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Footer
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Footer(props) {
+    var className = props.className,
+        size = props.size,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'size', 'children']);
+
+    var classes = (0, _classnames2.default)(_defineProperty({}, 'mdl-' + size + '-footer', true), className);
+
+    return _react2.default.createElement(
+        'footer',
+        _extends({ className: classes }, otherProps),
+        (0, _cloneChildren2.default)(children, { size: size })
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.FooterDropDownSection" id="apidoc.element.react-mdl.FooterDropDownSection">
+        function <span class="apidocSignatureSpan">react-mdl.</span>FooterDropDownSection
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function DropDownSection(props) {
+    var className = props.className,
+        size = props.size,
+        title = props.title,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'size', 'title', 'children']);
+
+    var classes = (0, _classnames2.default)(_defineProperty({}, 'mdl-' + size + '-footer__drop-down-section', true), className);
+
+    return _react2.default.createElement(
+        'div',
+        _extends({ className: classes }, otherProps),
+        _react2.default.createElement('input', { className: 'mdl-' + size + '-footer__heading-checkbox', type: 'checkbox', defaultChecked
+: true }),
+        _react2.default.createElement(
+            'h1',
+            { className: 'mdl-' + size + '-footer__heading' },
+            title
+        ),
+        (0, _cloneChildren2.default)(children, { size: size })
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.FooterLinkList" id="apidoc.element.react-mdl.FooterLinkList">
+        function <span class="apidocSignatureSpan">react-mdl.</span>FooterLinkList
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function LinkList(props) {
+    var className = props.className,
+        size = props.size,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'size', 'children']);
+
+    var classes = (0, _classnames2.default)(_defineProperty({}, 'mdl-' + size + '-footer__link-list', true), className);
+
+    return _react2.default.createElement(
+        'ul',
+        _extends({ className: classes }, otherProps),
+        _react2.default.Children.map(children, function (child) {
+            return _react2.default.createElement(
+                'li',
+                null,
+                child
+            );
+        })
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.FooterSection" id="apidoc.element.react-mdl.FooterSection">
+        function <span class="apidocSignatureSpan">react-mdl.</span>FooterSection
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Section(props) {
+    var className = props.className,
+        logo = props.logo,
+        size = props.size,
+        type = props.type,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'logo', 'size', 'type', 'children']);
+
+    var classes = (0, _classnames2.default)(_defineProperty({}, 'mdl-' + size + '-footer__' + type + '-section', true), className
+);
+
+    return _react2.default.createElement(
+        'div',
+        _extends({ className: classes }, otherProps),
+        logo ? _react2.default.createElement(
+            'div',
+            { className: 'mdl-logo' },
+            logo
+        ) : null,
+        (0, _cloneChildren2.default)(children, { size: size })
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Grid" id="apidoc.element.react-mdl.Grid">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Grid
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Grid(props) {
+    var noSpacing = props.noSpacing,
+        className = props.className,
+        children = props.children,
+        component = props.component,
+        shadow = props.shadow,
+        otherProps = _objectWithoutProperties(props, ['noSpacing', 'className', 'children', 'component', 'shadow']);
+
+    var hasShadow = typeof shadow !== 'undefined';
+    var shadowLevel = (0, _clamp2.default)(shadow || 0, 0, _shadows2.default.length - 1);
+
+    var classes = (0, _classnames2.default)('mdl-grid', _defineProperty({
+        'mdl-grid--no-spacing': noSpacing
+    }, _shadows2.default[shadowLevel], hasShadow), className);
+
+    return _react2.default.createElement(component || 'div', _extends({
+        className: classes
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Header" id="apidoc.element.react-mdl.Header">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Header
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Header(props) {
+    var className = props.className,
+        scroll = props.scroll,
+        seamed = props.seamed,
+        title = props.title,
+        transparent = props.transparent,
+        waterfall = props.waterfall,
+        hideTop = props.hideTop,
+        hideSpacer = props.hideSpacer,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'scroll', 'seamed', 'title', 'transparent', 'waterfall', 'hideTop
+', 'hideSpacer', 'children']);
+
+    var classes = (0, _classnames2.default)('mdl-layout__header', {
+        'mdl-layout__header--scroll': scroll,
+        'mdl-layout__header--seamed': seamed,
+        'mdl-layout__header--transparent': transparent,
+        'mdl-layout__header--waterfall': waterfall,
+        'mdl-layout__header--waterfall-hide-top': waterfall &amp;&amp; hideTop
+    }, className);
+
+    var isRowOrTab = false;
+    _react2.default.Children.forEach(children, function (child) {
+        if (child &amp;&amp; (child.type === _HeaderRow2.default || child.type === _HeaderTabs2.default)) {
+            isRowOrTab = true;
+        }
+    });
+
+    return _react2.default.createElement(
+        'header',
+        _extends({ className: classes }, otherProps),
+        isRowOrTab ? children : _react2.default.createElement(
+            _HeaderRow2.default,
+            { title: title, hideSpacer: hideSpacer },
+            children
+        )
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.HeaderRow" id="apidoc.element.react-mdl.HeaderRow">
+        function <span class="apidocSignatureSpan">react-mdl.</span>HeaderRow
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function HeaderRow(props) {
+    var className = props.className,
+        title = props.title,
+        children = props.children,
+        hideSpacer = props.hideSpacer,
+        otherProps = _objectWithoutProperties(props, ['className', 'title', 'children', 'hideSpacer']);
+
+    var classes = (0, _classnames2.default)('mdl-layout__header-row', className);
+
+    return _react2.default.createElement(
+        'div',
+        _extends({ className: classes }, otherProps),
+        title &amp;&amp; _react2.default.createElement(
+            'span',
+            { className: 'mdl-layout-title' },
+            title
+        ),
+        title &amp;&amp; !hideSpacer &amp;&amp; _react2.default.createElement(_Spacer2.default, null),
+        children
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.HeaderTabs" id="apidoc.element.react-mdl.HeaderTabs">
+        function <span class="apidocSignatureSpan">react-mdl.</span>HeaderTabs
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function patchedComponent(props) {
+    return React.createElement(
+        _MDLComponent2.default,
+        { recursive: recursive },
+        component(props)
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Icon" id="apidoc.element.react-mdl.Icon">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Icon
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Icon(props) {
+    var className = props.className,
+        name = props.name,
+        otherProps = _objectWithoutProperties(props, ['className', 'name']);
+
+    var classes = (0, _classnames2.default)('material-icons', className);
+
+    return _react2.default.createElement(
+        'i',
+        _extends({ className: classes }, otherProps),
+        name
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.IconButton" id="apidoc.element.react-mdl.IconButton">
+        function <span class="apidocSignatureSpan">react-mdl.</span>IconButton
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function IconButton(props) {
+    var className = props.className,
+        name = props.name,
+        otherProps = _objectWithoutProperties(props, ['className', 'name']);
+
+    var classes = (0, _classnames2.default)('mdl-button--icon', className);
+
+    return _react2.default.createElement(
+        _Button2.default,
+        _extends({ className: classes }, otherProps),
+        _react2.default.createElement(_Icon2.default, { name: name })
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.IconToggle" id="apidoc.element.react-mdl.IconToggle">
+        function <span class="apidocSignatureSpan">react-mdl.</span>IconToggle
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function IconToggle() {
+    _classCallCheck(this, IconToggle);
+
+    return _possibleConstructorReturn(this, (IconToggle.__proto__ || Object.getPrototypeOf(IconToggle)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Layout" id="apidoc.element.react-mdl.Layout">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Layout
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Layout() {
+    _classCallCheck(this, Layout);
+
+    return _possibleConstructorReturn(this, (Layout.__proto__ || Object.getPrototypeOf(Layout)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.List" id="apidoc.element.react-mdl.List">
+        function <span class="apidocSignatureSpan">react-mdl.</span>List
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+    var className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+
+    return _react2.default.createElement(element, _extends({
+        className: (0, _classnames2.default)(defaultClassName, className)
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ListItem" id="apidoc.element.react-mdl.ListItem">
+        function <span class="apidocSignatureSpan">react-mdl.</span>ListItem
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ListItem(props) {
+    var className = props.className,
+        twoLine = props.twoLine,
+        threeLine = props.threeLine,
+        otherProps = _objectWithoutProperties(props, ['className', 'twoLine', 'threeLine']);
+
+    var classes = (0, _classnames2.default)('mdl-list__item', {
+        'mdl-list__item--two-line': twoLine &amp;&amp; !threeLine,
+        'mdl-list__item--three-line': !twoLine &amp;&amp; threeLine
+    }, className);
+
+    var children = _react.Children.map(otherProps.children, function (child) {
+        if (typeof child === 'string') {
+            return _react2.default.createElement(
+                _ListItemContent2.default,
+                null,
+                child
+            );
+        }
+        if (child.type === _ListItemContent2.default) {
+            return (0, _react.cloneElement)(child, {
+                useBodyClass: !!threeLine
+            });
+        }
+        return child;
+    });
+
+    return _react2.default.createElement(
+        'li',
+        _extends({ className: classes }, otherProps),
+        children
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ListItemAction" id="apidoc.element.react-mdl.ListItemAction">
+        function <span class="apidocSignatureSpan">react-mdl.</span>ListItemAction
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ListItemAction(props) {
+    var children = props.children,
+        className = props.className,
+        info = props.info,
+        otherProps = _objectWithoutProperties(props, ['children', 'className', 'info']);
+
+    var classes = (0, _classnames2.default)('mdl-list__item-secondary-content', className);
+
+    return _react2.default.createElement(
+        'span',
+        _extends({ className: classes }, otherProps),
+        info &amp;&amp; _react2.default.createElement(
+            'span',
+            { className: 'mdl-list__item-secondary-info' },
+            info
+        ),
+        _react2.default.createElement(
+            'span',
+            { className: 'mdl-list__item-secondary-action' },
+            children
+        )
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ListItemContent" id="apidoc.element.react-mdl.ListItemContent">
+        function <span class="apidocSignatureSpan">react-mdl.</span>ListItemContent
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ListItemContent(props) {
+    var avatar = props.avatar,
+        children = props.children,
+        className = props.className,
+        icon = props.icon,
+        subtitle = props.subtitle,
+        useBodyClass = props.useBodyClass,
+        otherProps = _objectWithoutProperties(props, ['avatar', 'children', 'className', 'icon', 'subtitle', 'useBodyClass']);
+
+    var classes = (0, _classnames2.default)('mdl-list__item-primary-content', className);
+    var subtitleClassName = useBodyClass ? 'mdl-list__item-text-body' : 'mdl-list__item-sub-title';
+
+    var iconElement = null;
+    if (icon) {
+        iconElement = createIcon('icon', icon);
+    } else if (avatar) {
+        iconElement = createIcon('avatar', avatar);
+    }
+
+    return _react2.default.createElement(
+        'span',
+        _extends({ className: classes }, otherProps),
+        iconElement,
+        _react2.default.createElement(
+            'span',
+            null,
+            children
+        ),
+        subtitle &amp;&amp; _react2.default.createElement(
+            'span',
+            { className: subtitleClassName },
+            subtitle
+        )
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.MDLComponent" id="apidoc.element.react-mdl.MDLComponent">
+        function <span class="apidocSignatureSpan">react-mdl.</span>MDLComponent
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function MDLComponent() {
+    _classCallCheck(this, MDLComponent);
+
+    return _possibleConstructorReturn(this, (MDLComponent.__proto__ || Object.getPrototypeOf(MDLComponent)).apply(this, arguments
+));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Menu" id="apidoc.element.react-mdl.Menu">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Menu
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Menu() {
+    _classCallCheck(this, Menu);
+
+    return _possibleConstructorReturn(this, (Menu.__proto__ || Object.getPrototypeOf(Menu)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.MenuItem" id="apidoc.element.react-mdl.MenuItem">
+        function <span class="apidocSignatureSpan">react-mdl.</span>MenuItem
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+    var className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+
+    return _react2.default.createElement(element, _extends({
+        className: (0, _classnames2.default)(defaultClassName, className)
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Navigation" id="apidoc.element.react-mdl.Navigation">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Navigation
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Navigation(props) {
+    var className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+
+    var classes = (0, _classnames2.default)('mdl-navigation', className);
+
+    return _react2.default.createElement(
+        'nav',
+        _extends({ className: classes }, otherProps),
+        (0, _cloneChildren2.default)(children, function (child) {
+            return {
+                className: (0, _classnames2.default)({ 'mdl-navigation__link': child.type !== _Spacer2.default }, child.props.className
+)
+            };
+        })
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ProgressBar" id="apidoc.element.react-mdl.ProgressBar">
+        function <span class="apidocSignatureSpan">react-mdl.</span>ProgressBar
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ProgressBar() {
+    _classCallCheck(this, ProgressBar);
+
+    return _possibleConstructorReturn(this, (ProgressBar.__proto__ || Object.getPrototypeOf(ProgressBar)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Radio" id="apidoc.element.react-mdl.Radio">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Radio
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Radio() {
+    _classCallCheck(this, Radio);
+
+    return _possibleConstructorReturn(this, (Radio.__proto__ || Object.getPrototypeOf(Radio)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.RadioGroup" id="apidoc.element.react-mdl.RadioGroup">
+        function <span class="apidocSignatureSpan">react-mdl.</span>RadioGroup
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function RadioGroup(props) {
+    var name = props.name,
+        value = props.value,
+        children = props.children,
+        container = props.container,
+        childContainer = props.childContainer,
+        onChange = props.onChange,
+        otherProps = _objectWithoutProperties(props, ['name', 'value', 'children', 'container', 'childContainer', 'onChange']);
+
+    var hasOnChange = typeof onChange === 'function';
+    var checked = hasOnChange ? 'checked' : 'defaultChecked';
+
+    return _react2.default.createElement(container, otherProps, _react2.default.Children.map(children, function (child) {
+        var _extends2;
+
+        var clonedChild = _react2.default.cloneElement(child, _extends((_extends2 = {}, _defineProperty(_extends2, checked, child
+.props.value === value), _defineProperty(_extends2, 'name', name), _defineProperty(_extends2, 'onChange', onChange), _extends2),
+otherProps));
+
+        return childContainer ? _react2.default.createElement(childContainer, {}, clonedChild) : clonedChild;
+    }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Slider" id="apidoc.element.react-mdl.Slider">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Slider
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Slider() {
+    _classCallCheck(this, Slider);
+
+    return _possibleConstructorReturn(this, (Slider.__proto__ || Object.getPrototypeOf(Slider)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Snackbar" id="apidoc.element.react-mdl.Snackbar">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Snackbar
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Snackbar(props) {
+    _classCallCheck(this, Snackbar);
+
+    var _this = _possibleConstructorReturn(this, (Snackbar.__proto__ || Object.getPrototypeOf(Snackbar)).call(this, props));
+
+    _this.clearTimer = _this.clearTimer.bind(_this);
+    _this.timeoutId = null;
+    _this.clearTimeoutId = null;
+    _this.state = {
+        open: false
+    };
+    return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Spacer" id="apidoc.element.react-mdl.Spacer">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Spacer
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+    var className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+
+    return _react2.default.createElement(element, _extends({
+        className: (0, _classnames2.default)(defaultClassName, className)
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Spinner" id="apidoc.element.react-mdl.Spinner">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Spinner
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Spinner() {
+    _classCallCheck(this, Spinner);
+
+    return _possibleConstructorReturn(this, (Spinner.__proto__ || Object.getPrototypeOf(Spinner)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Switch" id="apidoc.element.react-mdl.Switch">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Switch
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Switch() {
+    _classCallCheck(this, Switch);
+
+    return _possibleConstructorReturn(this, (Switch.__proto__ || Object.getPrototypeOf(Switch)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Tab" id="apidoc.element.react-mdl.Tab">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Tab
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Tab(props) {
+    var _classNames;
+
+    var active = props.active,
+        className = props.className,
+        component = props.component,
+        children = props.children,
+        cssPrefix = props.cssPrefix,
+        onTabClick = props.onTabClick,
+        style = props.style,
+        tabId = props.tabId,
+        otherProps = _objectWithoutProperties(props, ['active', 'className', 'component', 'children', 'cssPrefix', 'onTabClick', '
+style', 'tabId']);
+
+    var classes = (0, _classnames2.default)((_classNames = {}, _defineProperty(_classNames, cssPrefix + '__tab', true), _defineProperty
+(_classNames, 'is-active', active), _classNames), className);
+
+    style.cursor = 'pointer';
+
+    return _react2.default.createElement(component || 'a', _extends({
+        className: classes,
+        onClick: function onClick() {
+            return onTabClick(tabId);
+        },
+        style: style
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.TabBar" id="apidoc.element.react-mdl.TabBar">
+        function <span class="apidocSignatureSpan">react-mdl.</span>TabBar
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TabBar(props) {
+    _classCallCheck(this, TabBar);
+
+    var _this = _possibleConstructorReturn(this, (TabBar.__proto__ || Object.getPrototypeOf(TabBar)).call(this, props));
+
+    _this.handleClickTab = _this.handleClickTab.bind(_this);
+    return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Table" id="apidoc.element.react-mdl.Table">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Table
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Sortable(props) {
+    _classCallCheck(this, Sortable);
+
+    var _this = _possibleConstructorReturn(this, (Sortable.__proto__ || Object.getPrototypeOf(Sortable)).call(this, props));
+
+    _this.handleClickColumn = _this.handleClickColumn.bind(_this);
+
+    if (props.sortable) {
+        _this.state = initState(props);
+    }
+    return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.TableHeader" id="apidoc.element.react-mdl.TableHeader">
+        function <span class="apidocSignatureSpan">react-mdl.</span>TableHeader
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TableHeader(props) {
+    var className = props.className,
+        name = props.name,
+        numeric = props.numeric,
+        onClick = props.onClick,
+        nosort = props.nosort,
+        tooltip = props.tooltip,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'name', 'numeric', 'onClick', 'nosort', 'tooltip', 'children']);
+
+    // remove unwanted props
+    // see https://github.com/Hacker0x01/react-datepicker/issues/517#issuecomment-230171426
+
+
+    delete otherProps.cellFormatter;
+    delete otherProps.sortFn;
+
+    var classes = (0, _classnames2.default)({
+        'mdl-data-table__cell--non-numeric': !numeric
+    }, className);
+
+    var clickFn = !nosort &amp;&amp; onClick ? function (e) {
+        return onClick(e, name);
+    } : null;
+
+    return _react2.default.createElement(
+        'th',
+        _extends({ className: classes, onClick: clickFn }, otherProps),
+        !!tooltip ? _react2.default.createElement(
+            _Tooltip2.default,
+            { label: tooltip },
+            children
+        ) : children
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Tabs" id="apidoc.element.react-mdl.Tabs">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Tabs
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function patchedComponent(props) {
+    return React.createElement(
+        _MDLComponent2.default,
+        { recursive: recursive },
+        component(props)
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Textfield" id="apidoc.element.react-mdl.Textfield">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Textfield
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Textfield() {
+    _classCallCheck(this, Textfield);
+
+    return _possibleConstructorReturn(this, (Textfield.__proto__ || Object.getPrototypeOf(Textfield)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Tooltip" id="apidoc.element.react-mdl.Tooltip">
+        function <span class="apidocSignatureSpan">react-mdl.</span>Tooltip
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Tooltip(props) {
+    var label = props.label,
+        large = props.large,
+        children = props.children,
+        position = props.position,
+        otherProps = _objectWithoutProperties(props, ['label', 'large', 'children', 'position']);
+
+    var id = Math.random().toString(36).substr(2);
+
+    var newLabel = typeof label === 'string' ? _react2.default.createElement(
+        'span',
+        null,
+        label
+    ) : label;
+
+    var element = void 0;
+    if (typeof children === 'string') {
+        element = _react2.default.createElement(
+            'span',
+            null,
+            children
+        );
+    } else {
+        element = _react2.default.Children.only(children);
+    }
+
+    return _react2.default.createElement(
+        'div',
+        _extends({ style: { display: 'inline-block' } }, otherProps),
+        _react2.default.cloneElement(element, { id: id }),
+        _react2.default.createElement(
+            _MDLComponent2.default,
+            null,
+            _react2.default.cloneElement(newLabel, {
+                htmlFor: id,
+                className: (0, _classnames2.default)('mdl-tooltip', _defineProperty({
+                    'mdl-tooltip--large': large
+                }, 'mdl-tooltip--' + position, typeof position !== 'undefined'))
+            })
+        )
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.getColorClass" id="apidoc.element.react-mdl.getColorClass">
+        function <span class="apidocSignatureSpan">react-mdl.</span>getColorClass
+        <span class="apidocSignatureSpan">(color, level)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getColorClass(color, level) {
+    var lvlClass = level ? '-' + level : '';
+    return 'mdl-color--' + color + lvlClass;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.getTextColorClass" id="apidoc.element.react-mdl.getTextColorClass">
+        function <span class="apidocSignatureSpan">react-mdl.</span>getTextColorClass
+        <span class="apidocSignatureSpan">(color, level)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getTextColorClass(color, level) {
+    var lvlClass = level ? '-' + level : '';
+    return 'mdl-color-text--' + color + lvlClass;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.mdlUpgrade" id="apidoc.element.react-mdl.mdlUpgrade">
+        function <span class="apidocSignatureSpan">react-mdl.</span>mdlUpgrade
+        <span class="apidocSignatureSpan">(Component)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mdlUpgrade = function (Component) {
+    var recursive = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : false;
+    return Component.prototype &amp;&amp; Component.prototype.isReactComponent ? patchComponentClass(Component, recursive) : patchSFC(Component
+, recursive);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.Button" id="apidoc.module.react-mdl.Button">module react-mdl.Button</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Button.default" id="apidoc.element.react-mdl.Button.default">
+        function <span class="apidocSignatureSpan">react-mdl.Button.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Button() {
+    _classCallCheck(this, Button);
+
+    return _possibleConstructorReturn(this, (Button.__proto__ || Object.getPrototypeOf(Button)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.Checkbox" id="apidoc.module.react-mdl.Checkbox">module react-mdl.Checkbox</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Checkbox.default" id="apidoc.element.react-mdl.Checkbox.default">
+        function <span class="apidocSignatureSpan">react-mdl.Checkbox.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Checkbox() {
+    _classCallCheck(this, Checkbox);
+
+    return _possibleConstructorReturn(this, (Checkbox.__proto__ || Object.getPrototypeOf(Checkbox)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.FABButton" id="apidoc.module.react-mdl.FABButton">module react-mdl.FABButton</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.FABButton.default" id="apidoc.element.react-mdl.FABButton.default">
+        function <span class="apidocSignatureSpan">react-mdl.FABButton.</span>default
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function FABButton(props) {
+    var mini = props.mini,
+        className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['mini', 'className', 'children']);
+
+    var classes = (0, _classnames2.default)('mdl-button--fab', {
+        'mdl-button--mini-fab': mini
+    }, className);
+
+    return _react2.default.createElement(
+        _Button2.default,
+        _extends({ className: classes }, otherProps),
+        children
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.IconButton" id="apidoc.module.react-mdl.IconButton">module react-mdl.IconButton</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.IconButton.default" id="apidoc.element.react-mdl.IconButton.default">
+        function <span class="apidocSignatureSpan">react-mdl.IconButton.</span>default
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function IconButton(props) {
+    var className = props.className,
+        name = props.name,
+        otherProps = _objectWithoutProperties(props, ['className', 'name']);
+
+    var classes = (0, _classnames2.default)('mdl-button--icon', className);
+
+    return _react2.default.createElement(
+        _Button2.default,
+        _extends({ className: classes }, otherProps),
+        _react2.default.createElement(_Icon2.default, { name: name })
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.IconToggle" id="apidoc.module.react-mdl.IconToggle">module react-mdl.IconToggle</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.IconToggle.default" id="apidoc.element.react-mdl.IconToggle.default">
+        function <span class="apidocSignatureSpan">react-mdl.IconToggle.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function IconToggle() {
+    _classCallCheck(this, IconToggle);
+
+    return _possibleConstructorReturn(this, (IconToggle.__proto__ || Object.getPrototypeOf(IconToggle)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.Menu" id="apidoc.module.react-mdl.Menu">module react-mdl.Menu</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Menu.MenuItem" id="apidoc.element.react-mdl.Menu.MenuItem">
+        function <span class="apidocSignatureSpan">react-mdl.Menu.</span>MenuItem
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+    var className = props.className,
+        children = props.children,
+        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+
+    return _react2.default.createElement(element, _extends({
+        className: (0, _classnames2.default)(defaultClassName, className)
+    }, otherProps), children);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Menu.default" id="apidoc.element.react-mdl.Menu.default">
+        function <span class="apidocSignatureSpan">react-mdl.Menu.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Menu() {
+    _classCallCheck(this, Menu);
+
+    return _possibleConstructorReturn(this, (Menu.__proto__ || Object.getPrototypeOf(Menu)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.ProgressBar" id="apidoc.module.react-mdl.ProgressBar">module react-mdl.ProgressBar</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ProgressBar.default" id="apidoc.element.react-mdl.ProgressBar.default">
+        function <span class="apidocSignatureSpan">react-mdl.ProgressBar.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ProgressBar() {
+    _classCallCheck(this, ProgressBar);
+
+    return _possibleConstructorReturn(this, (ProgressBar.__proto__ || Object.getPrototypeOf(ProgressBar)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.Radio" id="apidoc.module.react-mdl.Radio">module react-mdl.Radio</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Radio.default" id="apidoc.element.react-mdl.Radio.default">
+        function <span class="apidocSignatureSpan">react-mdl.Radio.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Radio() {
+    _classCallCheck(this, Radio);
+
+    return _possibleConstructorReturn(this, (Radio.__proto__ || Object.getPrototypeOf(Radio)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.RadioGroup" id="apidoc.module.react-mdl.RadioGroup">module react-mdl.RadioGroup</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.RadioGroup.default" id="apidoc.element.react-mdl.RadioGroup.default">
+        function <span class="apidocSignatureSpan">react-mdl.RadioGroup.</span>default
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function RadioGroup(props) {
+    var name = props.name,
+        value = props.value,
+        children = props.children,
+        container = props.container,
+        childContainer = props.childContainer,
+        onChange = props.onChange,
+        otherProps = _objectWithoutProperties(props, ['name', 'value', 'children', 'container', 'childContainer', 'onChange']);
+
+    var hasOnChange = typeof onChange === 'function';
+    var checked = hasOnChange ? 'checked' : 'defaultChecked';
+
+    return _react2.default.createElement(container, otherProps, _react2.default.Children.map(children, function (child) {
+        var _extends2;
+
+        var clonedChild = _react2.default.cloneElement(child, _extends((_extends2 = {}, _defineProperty(_extends2, checked, child
+.props.value === value), _defineProperty(_extends2, 'name', name), _defineProperty(_extends2, 'onChange', onChange), _extends2),
+otherProps));
+
+        return childContainer ? _react2.default.createElement(childContainer, {}, clonedChild) : clonedChild;
+    }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.ReactMDL" id="apidoc.module.react-mdl.ReactMDL">module react-mdl.ReactMDL</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Badge" id="apidoc.element.react-mdl.ReactMDL.Badge">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Badge
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Badge(props) {
+	    var children = props.children,
+	        className = props.className,
+	        text = props.text,
+	        overlap = props.overlap,
+	        noBackground = props.noBackground,
+	        rest = _objectWithoutProperties(props, ['children', 'className', 'text', 'overlap', 'noBackground']);
+	
+	    // No badge if no children
+	    // TODO: In React 15, we can return null instead
+	
+	
+	    if (!_react2.default.Children.count(children)) return _react2.default.createElement('noscript', null);
+	
+	    var element = typeof children === 'string' ? _react2.default.createElement(
+	        'span',
+	        null,
+	        children
+	    ) : _react2.default.Children.only(children);
+	
+	    // No text -&gt; No need of badge
+	    if (text === null || typeof text === 'undefined') return element;
+	
+	    return _react2.default.cloneElement(element, _extends({}, rest, {
+	        className: (0, _classnames2.default)(className, element.props.className, 'mdl-badge', {
+	            'mdl-badge--overlap': !!overlap,
+	            'mdl-badge--no-background': !!noBackground
+	        }),
+	        'data-badge': text
+	    }));
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Button" id="apidoc.element.react-mdl.ReactMDL.Button">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Button
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Button() {
+	        _classCallCheck(this, Button);
+	
+	        return _possibleConstructorReturn(this, (Button.__proto__ || Object.getPrototypeOf(Button)).apply(this, arguments));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Card" id="apidoc.element.react-mdl.ReactMDL.Card">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Card
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Card(props) {
+	    var className = props.className,
+	        shadow = props.shadow,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'shadow', 'children']);
+	
+	    var hasShadow = typeof shadow !== 'undefined';
+	    var shadowLevel = (0, _clamp2.default)(shadow || 0, 0, _shadows2.default.length - 1);
+	
+	    var classes = (0, _classnames2.default)('mdl-card', _defineProperty({}, _shadows2.default[shadowLevel], hasShadow), className
+);
+	
+	    return _react2.default.createElement(
+	        'div',
+	        _extends({ className: classes }, otherProps),
+	        children
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.CardActions" id="apidoc.element.react-mdl.ReactMDL.CardActions">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>CardActions
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CardActions(props) {
+	    var className = props.className,
+	        border = props.border,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'border', 'children']);
+	
+	    var classes = (0, _classnames2.default)('mdl-card__actions', {
+	        'mdl-card--border': border
+	    }, className);
+	
+	    return _react2.default.createElement(
+	        'div',
+	        _extends({ className: classes }, otherProps),
+	        children
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.CardMedia" id="apidoc.element.react-mdl.ReactMDL.CardMedia">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>CardMedia
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+	        var className = props.className,
+	            children = props.children,
+	            otherProps = _objectWithoutProperties(props, ['className', 'children']);
+	
+	        return _react2.default.createElement(element, _extends({
+	            className: (0, _classnames2.default)(defaultClassName, className)
+	        }, otherProps), children);
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.CardMenu" id="apidoc.element.react-mdl.ReactMDL.CardMenu">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>CardMenu
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+	        var className = props.className,
+	            children = props.children,
+	            otherProps = _objectWithoutProperties(props, ['className', 'children']);
+	
+	        return _react2.default.createElement(element, _extends({
+	            className: (0, _classnames2.default)(defaultClassName, className)
+	        }, otherProps), children);
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.CardText" id="apidoc.element.react-mdl.ReactMDL.CardText">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>CardText
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+	        var className = props.className,
+	            children = props.children,
+	            otherProps = _objectWithoutProperties(props, ['className', 'children']);
+	
+	        return _react2.default.createElement(element, _extends({
+	            className: (0, _classnames2.default)(defaultClassName, className)
+	        }, otherProps), children);
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.CardTitle" id="apidoc.element.react-mdl.ReactMDL.CardTitle">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>CardTitle
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CardTitle(props) {
+	    var className = props.className,
+	        children = props.children,
+	        expand = props.expand,
+	        otherProps = _objectWithoutProperties(props, ['className', 'children', 'expand']);
+	
+	    var classes = (0, _classnames2.default)('mdl-card__title', {
+	        'mdl-card--expand': expand
+	    }, className);
+	
+	    var title = typeof children === 'string' ? _react2.default.createElement(
+	        'h2',
+	        { className: 'mdl-card__title-text' },
+	        children
+	    ) : children;
+	
+	    return _react2.default.createElement(
+	        'div',
+	        _extends({ className: classes }, otherProps),
+	        title
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Cell" id="apidoc.element.react-mdl.ReactMDL.Cell">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Cell
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Cell(props) {
+	    var _classNames;
+	
+	    var align = props.align,
+	        className = props.className,
+	        children = props.children,
+	        col = props.col,
+	        phone = props.phone,
+	        tablet = props.tablet,
+	        component = props.component,
+	        hideDesktop = props.hideDesktop,
+	        hidePhone = props.hidePhone,
+	        hideTablet = props.hideTablet,
+	        shadow = props.shadow,
+	        offset = props.offset,
+	        offsetDesktop = props.offsetDesktop,
+	        offsetTablet = props.offsetTablet,
+	        offsetPhone = props.offsetPhone,
+	        otherProps = _objectWithoutProperties(props, ['align', 'className', 'children', 'col', 'phone', 'tablet', 'component', '
+hideDesktop', 'hidePhone', 'hideTablet', 'shadow', 'offset', 'offsetDesktop', 'offsetTablet', 'offsetPhone']);
+	
+	    var hasShadow = isDefined(shadow);
+	    var shadowLevel = (0, _clamp2.default)(shadow || 0, 0, _shadows2.default.length - 1);
+	
+	    var classes = (0, _classnames2.default)('mdl-cell', (_classNames = {}, _defineProperty(_classNames, 'mdl-cell--' + col + '-
+col', isDefined(col)), _defineProperty(_classNames, 'mdl-cell--' + phone + '-col-phone', isDefined(phone)), _defineProperty(_classNames
+, 'mdl-cell--' + tablet + '-col-tablet', isDefined(tablet)), _defineProperty(_classNames, 'mdl-cell--' + align, isDefined(align)),
+_defineProperty(_classNames, 'mdl-cell--' + offset + '-offset', isDefined(offset)), _defineProperty(_classNames, 'mdl-cell--' +
+offsetDesktop + '-offset-desktop', isDefined(offsetDesktop)), _defineProperty(_classNames, 'mdl-cell--' + offsetTablet + '-offset
+-tablet', isDefined(offsetTablet)), _defineProperty(_classNames, 'mdl-cell--' + offsetPhone + '-offset-phone', isDefined(offsetPhone
+)), _defineProperty(_classNames, 'mdl-cell--hide-desktop', hideDesktop), _defineProperty(_classNames, 'mdl-cell--hide-phone', hidePhone
+), _defineProperty(_classNames, 'mdl-cell--hide-tablet', hideTablet), _defineProperty(_classNames, _shadows2.default[shadowLevel
+], hasShadow), _classNames), className);
+	
+	    return _react2.default.createElement(component || 'div', _extends({
+	        className: classes
+	    }, otherProps), children);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Checkbox" id="apidoc.element.react-mdl.ReactMDL.Checkbox">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Checkbox
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Checkbox() {
+	        _classCallCheck(this, Checkbox);
+	
+	        return _possibleConstructorReturn(this, (Checkbox.__proto__ || Object.getPrototypeOf(Checkbox)).apply(this, arguments));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Chip" id="apidoc.element.react-mdl.ReactMDL.Chip">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Chip
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Chip(props) {
+	    var className = props.className,
+	        onClick = props.onClick,
+	        onClose = props.onClose,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'onClick', 'onClose', 'children']);
+	
+	    var childrenArray = _react2.default.Children.toArray(children);
+	    var contactIndex = childrenArray.findIndex(function (c) {
+	        return c.type === ChipContact;
+	    });
+	
+	    var chipContent = [];
+	
+	    if (contactIndex &gt;= 0) {
+	        chipContent.push(childrenArray[contactIndex], _react2.default.createElement(
+	            ChipText,
+	            { key: 'text' },
+	            childrenArray.slice(0, contactIndex).concat(childrenArray.slice(contactIndex + 1))
+	        ));
+	    } else {
+	        chipContent.push(_react2.default.createElement(
+	            ChipText,
+	            { key: 'text' },
+	            children
+	        ));
+	    }
+	
+	    if (onClose) {
+	        chipContent.push(_react2.default.createElement(
+	            'button',
+	            { key: 'btn', type: 'button', className: 'mdl-chip__action', onClick: onClose },
+	            _react2.default.createElement(_Icon2.default, { name: 'cancel' })
+	        ));
+	    }
+	
+	    var elt = onClick ? 'button' : 'span';
+	
+	    return _react2.default.createElement(elt, _extends({
+	        className: (0, _classnames2.default)('mdl-chip', {
+	            'mdl-chip--contact': contactIndex &gt; -1,
+	            'mdl-chip--deletable': !!onClose
+	        }, className),
+	        type: onClick ? 'button' : null,
+	        onClick: onClick
+	    }, otherProps), chipContent);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.ChipContact" id="apidoc.element.react-mdl.ReactMDL.ChipContact">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>ChipContact
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+	        var className = props.className,
+	            children = props.children,
+	            otherProps = _objectWithoutProperties(props, ['className', 'children']);
+	
+	        return _react2.default.createElement(element, _extends({
+	            className: (0, _classnames2.default)(defaultClassName, className)
+	        }, otherProps), children);
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Content" id="apidoc.element.react-mdl.ReactMDL.Content">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Content
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Content(props) {
+	    var children = props.children,
+	        className = props.className,
+	        component = props.component,
+	        otherProps = _objectWithoutProperties(props, ['children', 'className', 'component']);
+	
+	    var classes = (0, _classnames2.default)('mdl-layout__content', className);
+	
+	    return _react2.default.createElement(component || 'div', _extends({
+	        className: classes
+	    }, otherProps), children);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.DataTable" id="apidoc.element.react-mdl.ReactMDL.DataTable">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>DataTable
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Sortable(props) {
+	            _classCallCheck(this, Sortable);
+	
+	            var _this = _possibleConstructorReturn(this, (Sortable.__proto__ || Object.getPrototypeOf(Sortable)).call(this, props
+));
+	
+	            _this.handleClickColumn = _this.handleClickColumn.bind(_this);
+	
+	            if (props.sortable) {
+	                _this.state = initState(props);
+	            }
+	            return _this;
+	        }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Dialog" id="apidoc.element.react-mdl.ReactMDL.Dialog">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Dialog
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Dialog() {
+	        _classCallCheck(this, Dialog);
+	
+	        return _possibleConstructorReturn(this, (Dialog.__proto__ || Object.getPrototypeOf(Dialog)).apply(this, arguments));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.DialogActions" id="apidoc.element.react-mdl.ReactMDL.DialogActions">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>DialogActions
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function DialogActions(props) {
+	    var className = props.className,
+	        fullWidth = props.fullWidth,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'fullWidth', 'children']);
+	
+	    var classes = (0, _classnames2.default)('mdl-dialog__actions', {
+	        'mdl-dialog__actions--full-width': fullWidth
+	    }, className);
+	
+	    return _react2.default.createElement(
+	        'div',
+	        _extends({ className: classes }, otherProps),
+	        children
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.DialogContent" id="apidoc.element.react-mdl.ReactMDL.DialogContent">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>DialogContent
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+	        var className = props.className,
+	            children = props.children,
+	            otherProps = _objectWithoutProperties(props, ['className', 'children']);
+	
+	        return _react2.default.createElement(element, _extends({
+	            className: (0, _classnames2.default)(defaultClassName, className)
+	        }, otherProps), children);
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.DialogTitle" id="apidoc.element.react-mdl.ReactMDL.DialogTitle">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>DialogTitle
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function DialogTitle(props) {
+	    var className = props.className,
+	        component = props.component,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'component', 'children']);
+	
+	    return _react2.default.createElement(component || 'h4', _extends({
+	        className: (0, _classnames2.default)('mdl-dialog__title', className)
+	    }, otherProps), children);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Drawer" id="apidoc.element.react-mdl.ReactMDL.Drawer">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Drawer
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Drawer(props) {
+	    var className = props.className,
+	        title = props.title,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'title', 'children']);
+	
+	    var classes = (0, _classnames2.default)('mdl-layout__drawer', className);
+	
+	    return _react2.default.createElement(
+	        'div',
+	        _extends({ className: classes }, otherProps),
+	        title ? _react2.default.createElement(
+	            'span',
+	            { className: 'mdl-layout-title' },
+	            title
+	        ) : null,
+	        children
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.FABButton" id="apidoc.element.react-mdl.ReactMDL.FABButton">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>FABButton
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function FABButton(props) {
+	    var mini = props.mini,
+	        className = props.className,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['mini', 'className', 'children']);
+	
+	    var classes = (0, _classnames2.default)('mdl-button--fab', {
+	        'mdl-button--mini-fab': mini
+	    }, className);
+	
+	    return _react2.default.createElement(
+	        _Button2.default,
+	        _extends({ className: classes }, otherProps),
+	        children
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Footer" id="apidoc.element.react-mdl.ReactMDL.Footer">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Footer
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Footer(props) {
+	    var className = props.className,
+	        size = props.size,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'size', 'children']);
+	
+	    var classes = (0, _classnames2.default)(_defineProperty({}, 'mdl-' + size + '-footer', true), className);
+	
+	    return _react2.default.createElement(
+	        'footer',
+	        _extends({ className: classes }, otherProps),
+	        (0, _cloneChildren2.default)(children, { size: size })
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.FooterDropDownSection" id="apidoc.element.react-mdl.ReactMDL.FooterDropDownSection">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>FooterDropDownSection
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function DropDownSection(props) {
+	    var className = props.className,
+	        size = props.size,
+	        title = props.title,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'size', 'title', 'children']);
+	
+	    var classes = (0, _classnames2.default)(_defineProperty({}, 'mdl-' + size + '-footer__drop-down-section', true), className);
+	
+	    return _react2.default.createElement(
+	        'div',
+	        _extends({ className: classes }, otherProps),
+	        _react2.default.createElement('input', { className: 'mdl-' + size + '-footer__heading-checkbox', type: 'checkbox', defaultChecked
+: true }),
+	        _react2.default.createElement(
+	            'h1',
+	            { className: 'mdl-' + size + '-footer__heading' },
+	            title
+	        ),
+	        (0, _cloneChildren2.default)(children, { size: size })
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.FooterLinkList" id="apidoc.element.react-mdl.ReactMDL.FooterLinkList">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>FooterLinkList
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function LinkList(props) {
+	    var className = props.className,
+	        size = props.size,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'size', 'children']);
+	
+	    var classes = (0, _classnames2.default)(_defineProperty({}, 'mdl-' + size + '-footer__link-list', true), className);
+	
+	    return _react2.default.createElement(
+	        'ul',
+	        _extends({ className: classes }, otherProps),
+	        _react2.default.Children.map(children, function (child) {
+	            return _react2.default.createElement(
+	                'li',
+	                null,
+	                child
+	            );
+	        })
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.FooterSection" id="apidoc.element.react-mdl.ReactMDL.FooterSection">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>FooterSection
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Section(props) {
+	    var className = props.className,
+	        logo = props.logo,
+	        size = props.size,
+	        type = props.type,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'logo', 'size', 'type', 'children']);
+	
+	    var classes = (0, _classnames2.default)(_defineProperty({}, 'mdl-' + size + '-footer__' + type + '-section', true), className
+);
+	
+	    return _react2.default.createElement(
+	        'div',
+	        _extends({ className: classes }, otherProps),
+	        logo ? _react2.default.createElement(
+	            'div',
+	            { className: 'mdl-logo' },
+	            logo
+	        ) : null,
+	        (0, _cloneChildren2.default)(children, { size: size })
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Grid" id="apidoc.element.react-mdl.ReactMDL.Grid">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Grid
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Grid(props) {
+	    var noSpacing = props.noSpacing,
+	        className = props.className,
+	        children = props.children,
+	        component = props.component,
+	        shadow = props.shadow,
+	        otherProps = _objectWithoutProperties(props, ['noSpacing', 'className', 'children', 'component', 'shadow']);
+	
+	    var hasShadow = typeof shadow !== 'undefined';
+	    var shadowLevel = (0, _clamp2.default)(shadow || 0, 0, _shadows2.default.length - 1);
+	
+	    var classes = (0, _classnames2.default)('mdl-grid', _defineProperty({
+	        'mdl-grid--no-spacing': noSpacing
+	    }, _shadows2.default[shadowLevel], hasShadow), className);
+	
+	    return _react2.default.createElement(component || 'div', _extends({
+	        className: classes
+	    }, otherProps), children);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Header" id="apidoc.element.react-mdl.ReactMDL.Header">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Header
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Header(props) {
+	    var className = props.className,
+	        scroll = props.scroll,
+	        seamed = props.seamed,
+	        title = props.title,
+	        transparent = props.transparent,
+	        waterfall = props.waterfall,
+	        hideTop = props.hideTop,
+	        hideSpacer = props.hideSpacer,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'scroll', 'seamed', 'title', 'transparent', 'waterfall', 'hideTop
+', 'hideSpacer', 'children']);
+	
+	    var classes = (0, _classnames2.default)('mdl-layout__header', {
+	        'mdl-layout__header--scroll': scroll,
+	        'mdl-layout__header--seamed': seamed,
+	        'mdl-layout__header--transparent': transparent,
+	        'mdl-layout__header--waterfall': waterfall,
+	        'mdl-layout__header--waterfall-hide-top': waterfall &amp;&amp; hideTop
+	    }, className);
+	
+	    var isRowOrTab = false;
+	    _react2.default.Children.forEach(children, function (child) {
+	        if (child &amp;&amp; (child.type === _HeaderRow2.default || child.type === _HeaderTabs2.default)) {
+	            isRowOrTab = true;
+	        }
+	    });
+	
+	    return _react2.default.createElement(
+	        'header',
+	        _extends({ className: classes }, otherProps),
+	        isRowOrTab ? children : _react2.default.createElement(
+	            _HeaderRow2.default,
+	            { title: title, hideSpacer: hideSpacer },
+	            children
+	        )
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.HeaderRow" id="apidoc.element.react-mdl.ReactMDL.HeaderRow">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>HeaderRow
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function HeaderRow(props) {
+	    var className = props.className,
+	        title = props.title,
+	        children = props.children,
+	        hideSpacer = props.hideSpacer,
+	        otherProps = _objectWithoutProperties(props, ['className', 'title', 'children', 'hideSpacer']);
+	
+	    var classes = (0, _classnames2.default)('mdl-layout__header-row', className);
+	
+	    return _react2.default.createElement(
+	        'div',
+	        _extends({ className: classes }, otherProps),
+	        title &amp;&amp; _react2.default.createElement(
+	            'span',
+	            { className: 'mdl-layout-title' },
+	            title
+	        ),
+	        title &amp;&amp; !hideSpacer &amp;&amp; _react2.default.createElement(_Spacer2.default, null),
+	        children
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.HeaderTabs" id="apidoc.element.react-mdl.ReactMDL.HeaderTabs">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>HeaderTabs
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function patchedComponent(props) {
+	        return React.createElement(
+	            _MDLComponent2.default,
+	            { recursive: recursive },
+	            component(props)
+	        );
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Icon" id="apidoc.element.react-mdl.ReactMDL.Icon">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Icon
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Icon(props) {
+	    var className = props.className,
+	        name = props.name,
+	        otherProps = _objectWithoutProperties(props, ['className', 'name']);
+	
+	    var classes = (0, _classnames2.default)('material-icons', className);
+	
+	    return _react2.default.createElement(
+	        'i',
+	        _extends({ className: classes }, otherProps),
+	        name
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.IconButton" id="apidoc.element.react-mdl.ReactMDL.IconButton">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>IconButton
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function IconButton(props) {
+	    var className = props.className,
+	        name = props.name,
+	        otherProps = _objectWithoutProperties(props, ['className', 'name']);
+	
+	    var classes = (0, _classnames2.default)('mdl-button--icon', className);
+	
+	    return _react2.default.createElement(
+	        _Button2.default,
+	        _extends({ className: classes }, otherProps),
+	        _react2.default.createElement(_Icon2.default, { name: name })
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.IconToggle" id="apidoc.element.react-mdl.ReactMDL.IconToggle">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>IconToggle
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function IconToggle() {
+	        _classCallCheck(this, IconToggle);
+	
+	        return _possibleConstructorReturn(this, (IconToggle.__proto__ || Object.getPrototypeOf(IconToggle)).apply(this, arguments
+));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Layout" id="apidoc.element.react-mdl.ReactMDL.Layout">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Layout
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Layout() {
+	        _classCallCheck(this, Layout);
+	
+	        return _possibleConstructorReturn(this, (Layout.__proto__ || Object.getPrototypeOf(Layout)).apply(this, arguments));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.List" id="apidoc.element.react-mdl.ReactMDL.List">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>List
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+	        var className = props.className,
+	            children = props.children,
+	            otherProps = _objectWithoutProperties(props, ['className', 'children']);
+	
+	        return _react2.default.createElement(element, _extends({
+	            className: (0, _classnames2.default)(defaultClassName, className)
+	        }, otherProps), children);
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.ListItem" id="apidoc.element.react-mdl.ReactMDL.ListItem">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>ListItem
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ListItem(props) {
+	    var className = props.className,
+	        twoLine = props.twoLine,
+	        threeLine = props.threeLine,
+	        otherProps = _objectWithoutProperties(props, ['className', 'twoLine', 'threeLine']);
+	
+	    var classes = (0, _classnames2.default)('mdl-list__item', {
+	        'mdl-list__item--two-line': twoLine &amp;&amp; !threeLine,
+	        'mdl-list__item--three-line': !twoLine &amp;&amp; threeLine
+	    }, className);
+	
+	    var children = _react.Children.map(otherProps.children, function (child) {
+	        if (typeof child === 'string') {
+	            return _react2.default.createElement(
+	                _ListItemContent2.default,
+	                null,
+	                child
+	            );
+	        }
+	        if (child.type === _ListItemContent2.default) {
+	            return (0, _react.cloneElement)(child, {
+	                useBodyClass: !!threeLine
+	            });
+	        }
+	        return child;
+	    });
+	
+	    return _react2.default.createElement(
+	        'li',
+	        _extends({ className: classes }, otherProps),
+	        children
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.ListItemAction" id="apidoc.element.react-mdl.ReactMDL.ListItemAction">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>ListItemAction
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ListItemAction(props) {
+	    var children = props.children,
+	        className = props.className,
+	        info = props.info,
+	        otherProps = _objectWithoutProperties(props, ['children', 'className', 'info']);
+	
+	    var classes = (0, _classnames2.default)('mdl-list__item-secondary-content', className);
+	
+	    return _react2.default.createElement(
+	        'span',
+	        _extends({ className: classes }, otherProps),
+	        info &amp;&amp; _react2.default.createElement(
+	            'span',
+	            { className: 'mdl-list__item-secondary-info' },
+	            info
+	        ),
+	        _react2.default.createElement(
+	            'span',
+	            { className: 'mdl-list__item-secondary-action' },
+	            children
+	        )
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.ListItemContent" id="apidoc.element.react-mdl.ReactMDL.ListItemContent">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>ListItemContent
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ListItemContent(props) {
+	    var avatar = props.avatar,
+	        children = props.children,
+	        className = props.className,
+	        icon = props.icon,
+	        subtitle = props.subtitle,
+	        useBodyClass = props.useBodyClass,
+	        otherProps = _objectWithoutProperties(props, ['avatar', 'children', 'className', 'icon', 'subtitle', 'useBodyClass']);
+	
+	    var classes = (0, _classnames2.default)('mdl-list__item-primary-content', className);
+	    var subtitleClassName = useBodyClass ? 'mdl-list__item-text-body' : 'mdl-list__item-sub-title';
+	
+	    var iconElement = null;
+	    if (icon) {
+	        iconElement = createIcon('icon', icon);
+	    } else if (avatar) {
+	        iconElement = createIcon('avatar', avatar);
+	    }
+	
+	    return _react2.default.createElement(
+	        'span',
+	        _extends({ className: classes }, otherProps),
+	        iconElement,
+	        _react2.default.createElement(
+	            'span',
+	            null,
+	            children
+	        ),
+	        subtitle &amp;&amp; _react2.default.createElement(
+	            'span',
+	            { className: subtitleClassName },
+	            subtitle
+	        )
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.MDLComponent" id="apidoc.element.react-mdl.ReactMDL.MDLComponent">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>MDLComponent
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function MDLComponent() {
+	        _classCallCheck(this, MDLComponent);
+	
+	        return _possibleConstructorReturn(this, (MDLComponent.__proto__ || Object.getPrototypeOf(MDLComponent)).apply(this, arguments
+));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Menu" id="apidoc.element.react-mdl.ReactMDL.Menu">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Menu
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Menu() {
+	        _classCallCheck(this, Menu);
+	
+	        return _possibleConstructorReturn(this, (Menu.__proto__ || Object.getPrototypeOf(Menu)).apply(this, arguments));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.MenuItem" id="apidoc.element.react-mdl.ReactMDL.MenuItem">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>MenuItem
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+	        var className = props.className,
+	            children = props.children,
+	            otherProps = _objectWithoutProperties(props, ['className', 'children']);
+	
+	        return _react2.default.createElement(element, _extends({
+	            className: (0, _classnames2.default)(defaultClassName, className)
+	        }, otherProps), children);
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Navigation" id="apidoc.element.react-mdl.ReactMDL.Navigation">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Navigation
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Navigation(props) {
+	    var className = props.className,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'children']);
+	
+	    var classes = (0, _classnames2.default)('mdl-navigation', className);
+	
+	    return _react2.default.createElement(
+	        'nav',
+	        _extends({ className: classes }, otherProps),
+	        (0, _cloneChildren2.default)(children, function (child) {
+	            return {
+	                className: (0, _classnames2.default)({ 'mdl-navigation__link': child.type !== _Spacer2.default }, child.props.className
+)
+	            };
+	        })
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.ProgressBar" id="apidoc.element.react-mdl.ReactMDL.ProgressBar">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>ProgressBar
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ProgressBar() {
+	        _classCallCheck(this, ProgressBar);
+	
+	        return _possibleConstructorReturn(this, (ProgressBar.__proto__ || Object.getPrototypeOf(ProgressBar)).apply(this, arguments
+));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Radio" id="apidoc.element.react-mdl.ReactMDL.Radio">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Radio
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Radio() {
+	        _classCallCheck(this, Radio);
+	
+	        return _possibleConstructorReturn(this, (Radio.__proto__ || Object.getPrototypeOf(Radio)).apply(this, arguments));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.RadioGroup" id="apidoc.element.react-mdl.ReactMDL.RadioGroup">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>RadioGroup
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function RadioGroup(props) {
+	    var name = props.name,
+	        value = props.value,
+	        children = props.children,
+	        container = props.container,
+	        childContainer = props.childContainer,
+	        onChange = props.onChange,
+	        otherProps = _objectWithoutProperties(props, ['name', 'value', 'children', 'container', 'childContainer', 'onChange']);
+	
+	    var hasOnChange = typeof onChange === 'function';
+	    var checked = hasOnChange ? 'checked' : 'defaultChecked';
+	
+	    return _react2.default.createElement(container, otherProps, _react2.default.Children.map(children, function (child) {
+	        var _extends2;
+	
+	        var clonedChild = _react2.default.cloneElement(child, _extends((_extends2 = {}, _defineProperty(_extends2, checked, child
+.props.value === value), _defineProperty(_extends2, 'name', name), _defineProperty(_extends2, 'onChange', onChange), _extends2),
+otherProps));
+	
+	        return childContainer ? _react2.default.createElement(childContainer, {}, clonedChild) : clonedChild;
+	    }));
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Slider" id="apidoc.element.react-mdl.ReactMDL.Slider">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Slider
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Slider() {
+	        _classCallCheck(this, Slider);
+	
+	        return _possibleConstructorReturn(this, (Slider.__proto__ || Object.getPrototypeOf(Slider)).apply(this, arguments));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Snackbar" id="apidoc.element.react-mdl.ReactMDL.Snackbar">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Snackbar
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Snackbar(props) {
+	        _classCallCheck(this, Snackbar);
+	
+	        var _this = _possibleConstructorReturn(this, (Snackbar.__proto__ || Object.getPrototypeOf(Snackbar)).call(this, props));
+	
+	        _this.clearTimer = _this.clearTimer.bind(_this);
+	        _this.timeoutId = null;
+	        _this.clearTimeoutId = null;
+	        _this.state = {
+	            open: false
+	        };
+	        return _this;
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Spacer" id="apidoc.element.react-mdl.ReactMDL.Spacer">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Spacer
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fn(props) {
+	        var className = props.className,
+	            children = props.children,
+	            otherProps = _objectWithoutProperties(props, ['className', 'children']);
+	
+	        return _react2.default.createElement(element, _extends({
+	            className: (0, _classnames2.default)(defaultClassName, className)
+	        }, otherProps), children);
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Spinner" id="apidoc.element.react-mdl.ReactMDL.Spinner">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Spinner
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Spinner() {
+	        _classCallCheck(this, Spinner);
+	
+	        return _possibleConstructorReturn(this, (Spinner.__proto__ || Object.getPrototypeOf(Spinner)).apply(this, arguments));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Switch" id="apidoc.element.react-mdl.ReactMDL.Switch">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Switch
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Switch() {
+	        _classCallCheck(this, Switch);
+	
+	        return _possibleConstructorReturn(this, (Switch.__proto__ || Object.getPrototypeOf(Switch)).apply(this, arguments));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Tab" id="apidoc.element.react-mdl.ReactMDL.Tab">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Tab
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Tab(props) {
+	    var _classNames;
+	
+	    var active = props.active,
+	        className = props.className,
+	        component = props.component,
+	        children = props.children,
+	        cssPrefix = props.cssPrefix,
+	        onTabClick = props.onTabClick,
+	        style = props.style,
+	        tabId = props.tabId,
+	        otherProps = _objectWithoutProperties(props, ['active', 'className', 'component', 'children', 'cssPrefix', 'onTabClick', '
+style', 'tabId']);
+	
+	    var classes = (0, _classnames2.default)((_classNames = {}, _defineProperty(_classNames, cssPrefix + '__tab', true), _defineProperty
+(_classNames, 'is-active', active), _classNames), className);
+	
+	    style.cursor = 'pointer';
+	
+	    return _react2.default.createElement(component || 'a', _extends({
+	        className: classes,
+	        onClick: function onClick() {
+	            return onTabClick(tabId);
+	        },
+	        style: style
+	    }, otherProps), children);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.TabBar" id="apidoc.element.react-mdl.ReactMDL.TabBar">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>TabBar
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TabBar(props) {
+	        _classCallCheck(this, TabBar);
+	
+	        var _this = _possibleConstructorReturn(this, (TabBar.__proto__ || Object.getPrototypeOf(TabBar)).call(this, props));
+	
+	        _this.handleClickTab = _this.handleClickTab.bind(_this);
+	        return _this;
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Table" id="apidoc.element.react-mdl.ReactMDL.Table">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Table
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Sortable(props) {
+	            _classCallCheck(this, Sortable);
+	
+	            var _this = _possibleConstructorReturn(this, (Sortable.__proto__ || Object.getPrototypeOf(Sortable)).call(this, props
+));
+	
+	            _this.handleClickColumn = _this.handleClickColumn.bind(_this);
+	
+	            if (props.sortable) {
+	                _this.state = initState(props);
+	            }
+	            return _this;
+	        }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.TableHeader" id="apidoc.element.react-mdl.ReactMDL.TableHeader">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>TableHeader
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function TableHeader(props) {
+	    var className = props.className,
+	        name = props.name,
+	        numeric = props.numeric,
+	        onClick = props.onClick,
+	        nosort = props.nosort,
+	        tooltip = props.tooltip,
+	        children = props.children,
+	        otherProps = _objectWithoutProperties(props, ['className', 'name', 'numeric', 'onClick', 'nosort', 'tooltip', 'children
+']);
+	
+	    // remove unwanted props
+	    // see https://github.com/Hacker0x01/react-datepicker/issues/517#issuecomment-230171426
+	
+	
+	    delete otherProps.cellFormatter;
+	    delete otherProps.sortFn;
+	
+	    var classes = (0, _classnames2.default)({
+	        'mdl-data-table__cell--non-numeric': !numeric
+	    }, className);
+	
+	    var clickFn = !nosort &amp;&amp; onClick ? function (e) {
+	        return onClick(e, name);
+	    } : null;
+	
+	    return _react2.default.createElement(
+	        'th',
+	        _extends({ className: classes, onClick: clickFn }, otherProps),
+	        !!tooltip ? _react2.default.createElement(
+	            _Tooltip2.default,
+	            { label: tooltip },
+	            children
+	        ) : children
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Tabs" id="apidoc.element.react-mdl.ReactMDL.Tabs">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Tabs
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function patchedComponent(props) {
+	        return React.createElement(
+	            _MDLComponent2.default,
+	            { recursive: recursive },
+	            component(props)
+	        );
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Textfield" id="apidoc.element.react-mdl.ReactMDL.Textfield">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Textfield
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Textfield() {
+	        _classCallCheck(this, Textfield);
+	
+	        return _possibleConstructorReturn(this, (Textfield.__proto__ || Object.getPrototypeOf(Textfield)).apply(this, arguments
+));
+	    }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.Tooltip" id="apidoc.element.react-mdl.ReactMDL.Tooltip">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>Tooltip
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Tooltip(props) {
+	    var label = props.label,
+	        large = props.large,
+	        children = props.children,
+	        position = props.position,
+	        otherProps = _objectWithoutProperties(props, ['label', 'large', 'children', 'position']);
+	
+	    var id = Math.random().toString(36).substr(2);
+	
+	    var newLabel = typeof label === 'string' ? _react2.default.createElement(
+	        'span',
+	        null,
+	        label
+	    ) : label;
+	
+	    var element = void 0;
+	    if (typeof children === 'string') {
+	        element = _react2.default.createElement(
+	            'span',
+	            null,
+	            children
+	        );
+	    } else {
+	        element = _react2.default.Children.only(children);
+	    }
+	
+	    return _react2.default.createElement(
+	        'div',
+	        _extends({ style: { display: 'inline-block' } }, otherProps),
+	        _react2.default.cloneElement(element, { id: id }),
+	        _react2.default.createElement(
+	            _MDLComponent2.default,
+	            null,
+	            _react2.default.cloneElement(newLabel, {
+	                htmlFor: id,
+	                className: (0, _classnames2.default)('mdl-tooltip', _defineProperty({
+	                    'mdl-tooltip--large': large
+	                }, 'mdl-tooltip--' + position, typeof position !== 'undefined'))
+	            })
+	        )
+	    );
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.getColorClass" id="apidoc.element.react-mdl.ReactMDL.getColorClass">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>getColorClass
+        <span class="apidocSignatureSpan">(color, level)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getColorClass(color, level) {
+	    var lvlClass = level ? '-' + level : '';
+	    return 'mdl-color--' + color + lvlClass;
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.getTextColorClass" id="apidoc.element.react-mdl.ReactMDL.getTextColorClass">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>getTextColorClass
+        <span class="apidocSignatureSpan">(color, level)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getTextColorClass(color, level) {
+	    var lvlClass = level ? '-' + level : '';
+	    return 'mdl-color-text--' + color + lvlClass;
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.ReactMDL.mdlUpgrade" id="apidoc.element.react-mdl.ReactMDL.mdlUpgrade">
+        function <span class="apidocSignatureSpan">react-mdl.ReactMDL.</span>mdlUpgrade
+        <span class="apidocSignatureSpan">(Component)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mdlUpgrade = function (Component) {
+	    var recursive = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : false;
+	    return Component.prototype &amp;&amp; Component.prototype.isReactComponent ? patchComponentClass(Component, recursive) : patchSFC(Component
+, recursive);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.Slider" id="apidoc.module.react-mdl.Slider">module react-mdl.Slider</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Slider.default" id="apidoc.element.react-mdl.Slider.default">
+        function <span class="apidocSignatureSpan">react-mdl.Slider.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Slider() {
+    _classCallCheck(this, Slider);
+
+    return _possibleConstructorReturn(this, (Slider.__proto__ || Object.getPrototypeOf(Slider)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.Spinner" id="apidoc.module.react-mdl.Spinner">module react-mdl.Spinner</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Spinner.default" id="apidoc.element.react-mdl.Spinner.default">
+        function <span class="apidocSignatureSpan">react-mdl.Spinner.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Spinner() {
+    _classCallCheck(this, Spinner);
+
+    return _possibleConstructorReturn(this, (Spinner.__proto__ || Object.getPrototypeOf(Spinner)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.Switch" id="apidoc.module.react-mdl.Switch">module react-mdl.Switch</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Switch.default" id="apidoc.element.react-mdl.Switch.default">
+        function <span class="apidocSignatureSpan">react-mdl.Switch.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Switch() {
+    _classCallCheck(this, Switch);
+
+    return _possibleConstructorReturn(this, (Switch.__proto__ || Object.getPrototypeOf(Switch)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.Textfield" id="apidoc.module.react-mdl.Textfield">module react-mdl.Textfield</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Textfield.default" id="apidoc.element.react-mdl.Textfield.default">
+        function <span class="apidocSignatureSpan">react-mdl.Textfield.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Textfield() {
+    _classCallCheck(this, Textfield);
+
+    return _possibleConstructorReturn(this, (Textfield.__proto__ || Object.getPrototypeOf(Textfield)).apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.react-mdl.Tooltip" id="apidoc.module.react-mdl.Tooltip">module react-mdl.Tooltip</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.react-mdl.Tooltip.default" id="apidoc.element.react-mdl.Tooltip.default">
+        function <span class="apidocSignatureSpan">react-mdl.Tooltip.</span>default
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Tooltip(props) {
+    var label = props.label,
+        large = props.large,
+        children = props.children,
+        position = props.position,
+        otherProps = _objectWithoutProperties(props, ['label', 'large', 'children', 'position']);
+
+    var id = Math.random().toString(36).substr(2);
+
+    var newLabel = typeof label === 'string' ? _react2.default.createElement(
+        'span',
+        null,
+        label
+    ) : label;
+
+    var element = void 0;
+    if (typeof children === 'string') {
+        element = _react2.default.createElement(
+            'span',
+            null,
+            children
+        );
+    } else {
+        element = _react2.default.Children.only(children);
+    }
+
+    return _react2.default.createElement(
+        'div',
+        _extends({ style: { display: 'inline-block' } }, otherProps),
+        _react2.default.cloneElement(element, { id: id }),
+        _react2.default.createElement(
+            _MDLComponent2.default,
+            null,
+            _react2.default.cloneElement(newLabel, {
+                htmlFor: id,
+                className: (0, _classnames2.default)('mdl-tooltip', _defineProperty({
+                    'mdl-tooltip--large': large
+                }, 'mdl-tooltip--' + position, typeof position !== 'undefined'))
+            })
+        )
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
